@@ -127,6 +127,9 @@ function confirma () {
         } else {
             document.querySelector('.tela').innerHTML = '<div class="aviso--gigante">FIM!</div>'
             console.log(votos)
+            document.querySelector('.teclado--botao.botao--branco').setAttribute('onclick', '')
+            document.querySelector('.teclado--botao.botao--corrige').setAttribute('onclick', '')
+            document.querySelector('.teclado--botao.botao--confirma').setAttribute('onclick', '')
         }
     }
 }
