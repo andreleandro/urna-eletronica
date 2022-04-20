@@ -292,7 +292,7 @@ body {
     }
 }
 
-@media (max-width: 515px) {
+/*@media (max-width: 515px) {
     .container {
         transform: rotate(-90deg);
         transform-origin: left top;
@@ -304,5 +304,5 @@ body {
     .sumario .prefeitos {
         font-size: 10px;
     }
-}
+}*/
 
