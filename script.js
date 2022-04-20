@@ -5,6 +5,7 @@ let descricao = document.querySelector('.d-1-4')
 let aviso = document.querySelector('.d-2')
 let lateral = document.querySelector('.d-1-right')
 let numeros = document.querySelector('.d-1-3')
+let urnaSom = new Audio('sound/urna-sound.mp3')
 
 // Variaveis de controle de ambiente
 let etapaAtual = 0
@@ -125,6 +126,7 @@ function confirma () {
         if (etapas[etapaAtual] !== undefined) {
             comecarEtapa()
         } else {
+            urnaSom.play()
             document.querySelector('.tela').innerHTML = '<div class="aviso--gigante">FIM!</div>'
             console.log(votos)
             document.querySelector('.teclado--botao.botao--branco').setAttribute('onclick', '')
