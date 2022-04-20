@@ -292,17 +292,18 @@ body {
     }
 }
 
-/*@media (max-width: 515px) {
+@media (max-width: 515px) {
     .container {
         transform: rotate(-90deg);
         transform-origin: left top;
         height: 100vw;
         position: absolute;
-        top: 80%;
+        top: 99%;
         left: 0;
+        overflow-x: auto;
     }
     .sumario .prefeitos {
         font-size: 10px;
     }
-}*/
+}
 
